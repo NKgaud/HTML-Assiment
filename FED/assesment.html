@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .one img {
+        position: absolute;
+        width: 100%;
+        /* height:1000px; */
+
+    }
+
+    #logo img {
+        height: 50px;
+        margin-left: -500px;
+        margin-top: 10px;
+
+    }
+
+    #scooter img {
+        position: absolute;
+        height: 40px;
+        width: 30px;
+        margin-top: 20px;
+        margin-left: 70%;
+    }
+
+    #scooter h4 {
+        margin-left: 73%;
+        padding-top: 30px;
+        /* top:30px; */
+        position: relative;
+    }
+
+    .list {
+        position: relative;
+        margin-left: 60%;
+        /* padding:30px; */
+        /* justify-content: space-between; */
+        /* text-decoration: none; */
+    }
+
+    .list li {
+        display: inline-flex;
+        padding: 20px;
+
+    }
+
+    .list a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #lr img {
+        margin-left: -380px;
+        margin-top: 10%;
+        height: 50px;
+        /* width: 450px; */
+    }
+
+    #lr h4 {
+        position: absolute;
+        margin-top: 11%;
+        margin-left: 80px;
+    }
+
+    #lr h1 {
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 50px;
+        font-size: 100PX;
+    }
+
+    #lr h2 {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 50px;
+        font-size: 60PX;
+    }
+
+    #price {
+        /* position: relative; */
+        height: 700px;
+        width: 55%;
+        margin-left: 570px;
+        margin-top: -120px;
+    }
+
+    .two img{
+        position: relative;
+        margin-top:680px;
+        margin-left:20px;
+    }
+    .two h4{
+        position: absolute;
+        margin-top:-400px;
+        margin-left:50px;
+        color: antiquewhite;
+        font-size:25px;
+    }
+    .two h2{
+        position: absolute;
+        margin-top:-370px;
+        margin-left:50px;
+        color: antiquewhite;
+        font-size:30px;
+    }
+    .two h5{
+        position: absolute;
+        margin-top:-400px;
+        margin-left:700px;
+        color: antiquewhite;
+        font-size:25px;
+    }
+    .two h3{
+        position: absolute;
+        margin-top:-370px;
+        margin-left:700px;
+        color: antiquewhite;
+        font-size:35px;
+    }
+    #T{
+        position: absolute;
+        margin-top:-330px;
+        margin-left:700px;
+        color: antiquewhite;
+        font-size:35px;
+    }
+    #to{
+        position: absolute;
+        margin-top:-150px;
+        margin-left:690px;
+        color: antiquewhite;
+        font-size:25px;
+    }
+    #chill{
+        position: absolute;
+        margin-top:-120px;
+        margin-left:690px;
+        color: antiquewhite;
+        font-size:30px;
+    }
+    .three{
+        margin-top:20px;
+        margin-left:40px;
+    }
+    #p3{
+        position: absolute;
+        width:100%;
+        margin-left:-97%;
+        margin-top:250px;
+    }
+    .three h1{
+        position: absolute;
+        margin-left:450px;
+        margin-top:-750px;
+        font-size:40px;
+        color:#b33939;
+    }
+  #p3a{
+    position: absolute;
+        margin-left:510px;
+        margin-top:-815px;
+        font-size:16px;
+        color: black;
+  }
+  .three h3{
+        position: absolute;
+        /* /* margin-left:450px; */
+        margin-top:-680px;
+        /* font-size:40px; */
+        color:black; 
+    }
+    #OD1{
+        position: absolute;
+        margin-top:-45px;
+        color: antiquewhite;
+        margin-left:30px;
+        font-size:20px;
+
+    }
+    #OD2{
+        position: absolute;
+        margin-top:-45px;
+        color: antiquewhite;
+        margin-left:545px;
+        font-size:20px;
+
+    }
+    #OD3{
+        position: absolute;
+        margin-top:-45px;
+        color: antiquewhite;
+        margin-left:1020px;
+        font-size:20px;
+    }
+    #l1{
+        position: absolute;
+        margin-top:-225px;
+        /* color: antiquewhite; */
+        margin-left:10px;
+        font-size:28px;
+        /* font-weight: 6300; */
+        /* height:20px; */
+        /* font-size:20px; */
+
+    }
+    #l2{
+        position: absolute;
+        margin-top:-225px;
+        /* color: antiquewhite; */
+        margin-left:450px;
+        font-size:28px;
+        /* font-weight: 6300; */
+        /* height:20px; */
+        /* font-size:20px; */
+
+    }
+    #l3{
+        position: absolute;
+        margin-top:-225px;
+        /* color: antiquewhite; */
+        margin-left:890px;
+        font-size:28px;
+        /* font-weight: 6300; */
+        /* height:20px; */
+        /* font-size:20px; */
+
+    }
+    #p3l1{
+        position: absolute;
+        margin-top:-155px;
+        margin-left:10px;
+        width:315px;
+        font-size:15px;
+    
+
+    }
+    #p3l2{
+        position: absolute;
+        margin-top:-155px;
+        margin-left:490px;
+        width:315px;
+        font-size:15px;
+    
+
+    }
+    #p3l3{
+        position: absolute;
+        margin-top:-155px;
+        margin-left:920px;
+        width:315px;
+        font-size:15px;
+    
+
+    }
+    .four img{
+        position: absolute;
+        margin-left:-10px;
+        /* margin-left:-8%; */
+        height:800px;
+        width:100%;
+    }
+#DISCOVER{
+    position: absolute;
+    margin-left:170px;
+    margin-top:150px;
+    /* height:50PX; */
+    /* width:200PX; */
+}
+#up{
+    position: absolute;
+    margin-left:170px;
+    margin-top:170px;
+    font-size:40px;
+    font-weight: bolder;
+    /* height:50PX; */
+    /* width:200PX; */
+}
+#newlo{
+    position: absolute;
+    width:29%;
+    margin-top:250px;
+    margin-left:170px;
+    font-size:25px;
+    font-weight: 300;
+}
+#p4B img{
+    position: relative;
+    height:500px;
+    width:45%;
+    margin-top:100px;
+    margin-left:600px;
+}
+.five{
+    height:700px;
+}
+.five img{
+    position: absolute;
+    margin-top:250px;
+    margin-left:250px;
+    /* height:500px; */
+}
+#Re{
+    position: absolute;
+    margin-left:550px;
+    margin-top:120px;
+    font-size:25px;
+}
+#Book{
+    position: absolute;
+    margin-left:420px;
+    margin-top:180px;
+    font-size:48px;
+    color:black;
+}
+#NAME{
+    position: absolute;
+    margin-left:280px;
+    margin-top:270px;
+    font-size:20px;
+    font-weight: 100;
+}
+#EMAIL{
+    position: absolute;
+    margin-left:680px;
+    margin-top:270px;
+    font-size:20px;
+    font-weight: 100;
+}
+ 
+#DATE{
+    position: absolute;
+    margin-left:280px;
+    margin-top:360px;
+    font-size:20px;
+    font-weight: 100;
+}
+
+#TIME{
+    position: absolute;
+    margin-left:680px;
+    margin-top:360px;
+    font-size:20px;
+    font-weight: 100;
+}
+
+#PEOPLE{
+    position: absolute;
+    margin-left:280px;
+    margin-top:450px;
+    font-size:20px;
+    font-weight: 100;
+}
+ 
+#FIND{
+    position: absolute;
+    margin-left:680px;
+    margin-top:450px;
+    font-size:20px;
+    font-weight: bold;
+    color: antiquewhite;
+
+}
+
+    #p51{
+
+   
+    position:relative;
+    margin-left:-520px;
+    margin-top:30px;
+    width:100%;
+    height:600px;
+}
+.six{
+    position: absolute;
+    margin-left:-30px;
+    
+}
+#logo6{
+   position: absolute;
+   margin-top:-450px;
+   margin-left:60px;
+
+}
+#ram6{
+    position: absolute;
+    margin-top:-300px;
+    color: antiquewhite;
+    width:30%;
+    margin-left:100px;
+}
+#company{
+    margin-top:-40px;
+    margin-left:100px;
+    color: antiquewhite;
+}
+#sm{
+    position: absolute;
+    margin-left:1090px;
+    margin-top:-20px;
+}
+
+#mail{
+    position: relative;
+    margin-top:-280px;
+    margin-left:880px;
+    
+}
+#contry{
+    position: absolute;
+    color: antiquewhite;
+    margin-left:930px ;
+    margin-top:-65px;
+}
+#info{
+    position: absolute;
+    color: antiquewhite;
+    margin-left:930px ;
+    margin-top:-20px;
+}
+</style>
+
+<body>
+    <div class="one"><img src="Rectangle 1.svg" alt="">
+        <div id="logo"><img src="Place Your Logo Here (Double Click to Edit) (1).svg" alt=""> </div>
+        <div id="scooter"><img src="Vector Smart Object (1).svg" alt="">
+            <h4>Express Dilevery +1234567890 </h4>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">OUR STORY</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div id="lr"><img src="Little Rectangle.svg" alt="">
+            <h4>IT IS A GOOD TIME FOR A TEAST OF BURGER </h4>
+            <h1>BURGER</h1>
+            <h2>WEEK</h2>
+        </div>
+        <img id="price" src="burger with price.png" alt="">
+
+    </div>
+    <div class="two"><img src="grup 2 img.svg" alt="">
+    <h4>TRY IT TODAY</h4>
+<h2>MOST POPULAR BURGER</h2>
+<h5>TRY IT TODAY</h5> 
+<h3>MORE FUN</h3>
+<h3 id="T">MORE TEAST</h3>
+<h5 id="to">TRY IT TODAY </h5>
+<h3 id="chill">FRESH & CHILL</h3>
+
+</div>
+<div class="three"><img src="Design.svg" alt="">
+<img  id="p3" src="p3 burgerimg.svg" alt="">
+
+<h1>CHOOSE & ENJOY</h1>
+<h1 id="p3a">ALWAYS TEASTY BURGER</h1>
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium veniam, velit eos repellat tenetur, doloribus dignissimos, minima optio saepe facere fugiat omnis natus necessitatibus laudantium officia excepturi nemo delectus?</h3>
+<h4 id="OD1">ORDER NOW </h4>
+<h4 id="OD2">ORDER NOW </h4>
+<h4 id="OD3">ORDER NOW </h4>
+<h2 id="l1">LOREM IPSUM DOLLOR</h2>
+<h2 id="l2">LOREM IPSUM DOLLOR</h2>
+<h2 id="l3">LOREM IPSUM DOLLOR</h2>
+<h5 id="p3l1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet optio quos aspernatur</h5>
+<h5 id="p3l2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet optio quos aspernatur</h5>
+<h5 id="p3l3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet optio quos aspernatur</h5>
+</div>
+<div class="four"><img src="p4 background.svg" alt="">
+    <h3 id="DISCOVER">DISCOVER</h3>
+    <h3 id="up">UPCOMING EVENTS</h3>
+    <h3 id="newlo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus eveniet veniam. Architecto facilis, aperiam modi eveniet sunt ea quos aut deserunt laborum sit magnam dolor perferendis delectus nobis fugiat!</h3>
+ <p id="p4B"><img  src="p4burgerimg.svg" alt=""></p>
+</div>
+<div class="five">
+    <img src="p5img.png" alt="">
+    <h4 id="Re">RESERVATION</h4>
+    <h4 id="Book">BOOK YOUR TABLE</h4>
+    <h4 id="NAME">NAME</h4>
+    <h4 id="EMAIL">EMAIL</h4>
+    <h4 id="DATE">DATE</h4>
+    <h4 id="TIME">TIME</h4>
+    <h4 id="PEOPLE">PEOPLE</h4>
+    <h4 id="FIND"> FIND A TABLE</h4>
+    <img id="p51" src="Burger with sos.svg" alt=""> 
+</div>
+<div class="six">
+    <img id="last1" src="Place Your Design Here (Double Click to Edit) (1).png" alt="">
+    <h4 id="logo6"><img src="Logo (1).svg" alt=""></h4>
+    <h4 id="ram6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, earum vitae magnam deserunt iste a ipsa commodi similique illum modi! Dolor sit modi consectetur. Eos quam culpa perferendis quos voluptatem.</h4>
+    <h4 id="company">COMPANY NAME 2023.ALL RIGHT RESERVED.</h4>
+    <h4 id="sm"><img src="Social Media.svg" alt=""></h4>
+    <h4 id="mail"><img src="Email (1).png" alt=""></h4>
+    <h4 id="contry">MAIN ROAD ,BUILDING NAME , COUNTRY</h4>
+    <h4 id="info">INFO@COMPANY NAME.COM</h4>
+</div>
+</body>
+
+</html>
