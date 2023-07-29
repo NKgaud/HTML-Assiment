@@ -1,0 +1,179 @@
+
+.newimg{
+    margin-top:300px;
+    /* height:800px; */
+    position: absolute;
+}
+.Register{
+    margin-top:310px;
+    position: absolute;
+    color: azure;
+    margin-left: 130px;
+    /* display: inline-flex; */
+}
+.sell{
+    border: 1px solid white;
+    padding:5px;
+}
+.accordion{
+    margin-top:600px;
+    margin-left:50px;
+}
+.allimg{
+    margin-top:600px;
+}
+.logo{
+    position:relative;
+    margin-top:1800px;
+    width:400px;
+    margin-left:-1280px;
+    /* height:100%; */
+    /* display: flex; */
+}
+.playstore{
+    height:30px;
+    width:50px;
+    display: inline-flex;
+}
+.appstore{
+    height:30px;
+    width:50px;
+    display: flex;
+}
+ .careers{
+    position: absolute;
+    margin-top:-171px;
+    margin-left:-800px;
+}
+.legal{
+    position: absolute;
+    margin-top:-171px;
+    margin-left:-590px;
+}
+.icon{
+    position: absolute;
+    margin-top:-171px;
+    margin-left:-380px;
+    display: inline-flex;
+}
+/* .deta{
+    position: absolute;
+    margin-top:-51px;
+    margin-left:-1210px; */
+    /* display: inline-flex; */
+/* } */
+.footer{ 
+    position: absolute;
+    width:98%;
+    margin-top:2200px;
+    margin-left:-1280px;
+} 
+.search{
+    width:400px;
+    margin-left:-900px ;
+    /* margin-top:-50PX; */
+    height:30PX;
+}
+.phone{
+    height:25px;
+    margin-left:-400px;
+    /* margin-top:-60PX; */
+}
+.down{
+    margin-left:-20px;
+    /* margin-top:-60px; */
+   
+}
+.line{
+    margin-left: -250px;
+    height:20px;
+    width:20px;
+}
+.be{
+    margin-left:-15px;
+    font-weight:600;
+    /* margin-top:-60PX; */
+}
+.troll img{
+    height:50px;
+    /* color: black; */
+    /* margin-left:100px; */
+}
+.prof img{
+    /* margin-top:-100px; */
+    margin-left: 300px;
+    height:60px;
+}
+ /* .we{
+    
+    background-color:red;
+    color: black;
+    
+} */
+/* .we a{
+    
+    /* background-color: white; */
+    /* color: black; */
+    
+/* } */
+  /* .ww{
+    background-color: white;
+    color: black;
+    
+}
+.me{
+    background-color: white;
+    color: black;
+    
+}
+.kd{
+    background-color: white;
+    color: black;
+    
+}
+.bh{
+    background-color: white;
+    color: black;
+    
+}
+.hk{
+    background-color: white;
+    color: black;
+    
+}  */
+/* .list1{
+    height:500px;
+    width:80%;
+    margin-left:30px;
+    padding:16px 10px;
+    justify-content: space-between;
+}
+.welist{
+    height:400px;
+    width:800%;
+}
+.list2{
+    height:500px;
+    width:80%;
+    margin-left:-160px;
+    padding:16px 10px;
+    justify-content: space-between;
+    /* display: flex;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start; */
+/* } */
+/* .wwlist{
+    height:400px;
+    width: -200px;
+    
+} */ 
+.Navbar2{
+    width:100%;
+    margin-left:50px;
+    font-size:20px;
+    /* padding:30px; */
+    justify-content: space-around;
+}
